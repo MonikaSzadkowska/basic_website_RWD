@@ -238,3 +238,25 @@ header nav ul li a:hover {
 .pic:hover .fa {
 	visibility: visible;
 }
+.team {
+	text-align: center;
+	margin: 150px 170px;
+	padding: 0 25px;
+}
+.photo-btn {
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	object-fit: none;
+	object-position: center;
+}
+.position {
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	display: block;
+	transform: translate(-50%, -50%);
+	bottom:100px;
+	left:50%;
+}
