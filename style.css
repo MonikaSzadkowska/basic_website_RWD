@@ -313,3 +313,40 @@ p.italic {
 	color: #59d0ea;
 	margin: 0;
 }
+.footer {
+	width: 100%;
+	padding: 15px 160px;
+	text-align: left; 
+	display:block;
+	color: #FFF;
+	background-color: #313438;
+}
+.footer h1 {
+	text-transform: uppercase;
+}
+.footer .col-4 {
+	padding: 0 20px;
+}
+.footer p {
+	margin: 10px;
+}
+.social-btns {
+	height: 35px;
+	width: 35px;
+	border: 0;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 20px;
+	background-color: #59d0ea;
+	color: #FFF;
+}
+.copyrights {
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+	height: 50px;
+	padding-top: 10px;
+}
+.copyrights p {
+	margin: 0;
+}
