@@ -1,9 +1,10 @@
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Raleway:700|Chango);
 * {
 	box-sizing: border-box;
 }
 body {
 	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
 }
 .row:before,
 .row:after {
@@ -200,6 +201,7 @@ header nav ul li a:hover {
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 40px; 
+	font-family: 'Raleway';
 }
 .text p {
 	font-size: 22px;
@@ -308,6 +310,7 @@ p.italic {
 .numbers h1 {
 	font-size: 40px;
 	margin-bottom: 0;
+	font-family: 'Chango';
 }
 .numbers h2 {
 	color: #59d0ea;
