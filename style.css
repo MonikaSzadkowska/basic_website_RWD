@@ -242,6 +242,7 @@ header nav ul li a:hover {
 	text-align: center;
 	margin: 150px 170px;
 	padding: 0 25px;
+	position: relative;
 }
 .photo-btn {
 	border-radius: 50%;
@@ -249,6 +250,7 @@ header nav ul li a:hover {
 	height: 180px;
 	object-fit: none;
 	object-position: center;
+	backface-visibility: hidden;
 }
 .position {
 	color: black;
@@ -257,6 +259,16 @@ header nav ul li a:hover {
 	font-weight: 700;
 	display: block;
 	transform: translate(-50%, -50%);
+	transition-duration: 0.1s;
+	position:relative;
 	bottom:100px;
 	left:50%;
+	visibility:hidden;
+}
+.job:hover .position {
+	visibility:visible;
+}
+.job:hover img {
+	opacity: 0.3;
+	transition-duration: 0.3s;
 }
